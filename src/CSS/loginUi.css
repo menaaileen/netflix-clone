@@ -1,0 +1,133 @@
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-family: "poppins", sans-serif;
+  background-image: url(../Images/background.png);
+  background-size: cover;
+  background-position: center;
+  /* width: 100%;
+  height: 130vh; */
+  /* background-color: rgb(133, 73, 73);
+  background-image: rgb(178, 73, 73); */
+}
+.sub-main {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  width: 25%;
+  padding-top: 15px;
+  border-radius: 20px;
+  margin-top: -50px;
+  font-family: "poppins", sans-serif;
+  background-color: #2d015f;
+  background-image: linear-gradient(to top, #2d015f, rgb(38, 1, 58));
+}
+/* h1 {
+  font: "poppins", sans-serif;
+} */
+.imgs {
+  padding-top: 10px;
+  justify-content: center;
+  display: flex;
+}
+.container-image {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 160px;
+  width: 165px;
+}
+.profile {
+  height: 150px;
+  width: 150px;
+  border-radius: 130px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 25px 0px #888;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.email {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  padding: 14px 0 0 25px;
+  font-family: "poppins", sans-serif;
+}
+
+.name {
+  padding-left: 70px;
+  font-size: 20px;
+}
+.second-input {
+  padding-top: 20px;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #a856ff;
+  color: white;
+  font-size: 25px;
+  margin: 15px;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+  font-family: "poppins", sans-serif;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.login-button {
+  padding-top: 20px;
+}
+h3 {
+  font-size: small;
+  margin-right: 70%;
+  margin-bottom: 3%;
+}
+h5 {
+  font-size: small;
+  margin-right: 75%;
+  color: white;
+  margin-bottom: 3%;
+}
+/* Links for " forgot passowrd / sign up "  
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+   a{
+       color: blue;
+   } */
